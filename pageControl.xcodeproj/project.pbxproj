@@ -15,6 +15,8 @@
 		940468781DEC249800317B9C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 940468761DEC249800317B9C /* LaunchScreen.storyboard */; };
 		940468831DEC249800317B9C /* pageControlTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 940468821DEC249800317B9C /* pageControlTests.m */; };
 		9404688E1DEC249800317B9C /* pageControlUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9404688D1DEC249800317B9C /* pageControlUITests.m */; };
+		940468A01DEC265A00317B9C /* RYPageControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 9404689F1DEC265A00317B9C /* RYPageControl.m */; };
+		940468A31DEC2A8500317B9C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 940468A21DEC2A8500317B9C /* UIKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,9 @@
 		940468891DEC249800317B9C /* pageControlUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = pageControlUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9404688D1DEC249800317B9C /* pageControlUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = pageControlUITests.m; sourceTree = "<group>"; };
 		9404688F1DEC249800317B9C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9404689E1DEC265A00317B9C /* RYPageControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RYPageControl.h; sourceTree = "<group>"; };
+		9404689F1DEC265A00317B9C /* RYPageControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RYPageControl.m; sourceTree = "<group>"; };
+		940468A21DEC2A8500317B9C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +63,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				940468A31DEC2A8500317B9C /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +91,7 @@
 				940468811DEC249800317B9C /* pageControlTests */,
 				9404688C1DEC249800317B9C /* pageControlUITests */,
 				940468661DEC249800317B9C /* Products */,
+				940468A11DEC2A8500317B9C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,6 +108,8 @@
 		940468671DEC249800317B9C /* pageControl */ = {
 			isa = PBXGroup;
 			children = (
+				9404689E1DEC265A00317B9C /* RYPageControl.h */,
+				9404689F1DEC265A00317B9C /* RYPageControl.m */,
 				9404686B1DEC249800317B9C /* AppDelegate.h */,
 				9404686C1DEC249800317B9C /* AppDelegate.m */,
 				9404686E1DEC249800317B9C /* ViewController.h */,
@@ -138,6 +147,14 @@
 				9404688F1DEC249800317B9C /* Info.plist */,
 			);
 			path = pageControlUITests;
+			sourceTree = "<group>";
+		};
+		940468A11DEC2A8500317B9C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				940468A21DEC2A8500317B9C /* UIKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -274,6 +291,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				940468A01DEC265A00317B9C /* RYPageControl.m in Sources */,
 				940468701DEC249800317B9C /* ViewController.m in Sources */,
 				9404686D1DEC249800317B9C /* AppDelegate.m in Sources */,
 				9404686A1DEC249800317B9C /* main.m in Sources */,
