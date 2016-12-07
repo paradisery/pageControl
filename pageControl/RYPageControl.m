@@ -21,17 +21,19 @@
 }
 - (void) setCurrentPage:(NSInteger)page{
     [super setCurrentPage:page];
-    for (NSUInteger subviewIndex = 0; subviewIndex < [self.subviews count]; subviewIndex++) {
-        UIView* subview = [self.subviews objectAtIndex:subviewIndex];
-        CGSize size;
-        size.height = _rSize;
-        size.width = _rSize;
-        [subview setFrame:CGRectMake(subview.frame.origin.x, subview.frame.origin.y,
-                                     size.width,size.height)];
-        if (subviewIndex == page){
-            [subview setBackgroundColor:_currentColor];
-        }else{
-            [subview setBackgroundColor:_nextColor];
+    if (_rSize) {
+        for (NSUInteger subviewIndex = 0; subviewIndex < [self.subviews count]; subviewIndex++) {
+            UIView* subview = [self.subviews objectAtIndex:subviewIndex];
+            CGSize size;
+            size.height = _rSize;
+            size.width = _rSize;
+            [subview setFrame:CGRectMake(subview.frame.origin.x, subview.frame.origin.y,
+                                         size.width,size.height)];
+            if (subviewIndex == page){
+                [subview setBackgroundColor:_currentColor];
+            }else{
+                [subview setBackgroundColor:_nextColor];
+            }
         }
     }
 }

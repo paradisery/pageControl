@@ -17,6 +17,9 @@
 		9404688E1DEC249800317B9C /* pageControlUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9404688D1DEC249800317B9C /* pageControlUITests.m */; };
 		940468A01DEC265A00317B9C /* RYPageControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 9404689F1DEC265A00317B9C /* RYPageControl.m */; };
 		940468A31DEC2A8500317B9C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 940468A21DEC2A8500317B9C /* UIKit.framework */; };
+		945F20721DF6622600327D77 /* A.m in Sources */ = {isa = PBXBuildFile; fileRef = 945F20711DF6622600327D77 /* A.m */; };
+		945F20751DF6623F00327D77 /* B.m in Sources */ = {isa = PBXBuildFile; fileRef = 945F20741DF6623F00327D77 /* B.m */; };
+		94DF10EA1DF7F195006011AC /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 94DF10E91DF7F195006011AC /* Person.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +59,12 @@
 		9404689E1DEC265A00317B9C /* RYPageControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RYPageControl.h; sourceTree = "<group>"; };
 		9404689F1DEC265A00317B9C /* RYPageControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RYPageControl.m; sourceTree = "<group>"; };
 		940468A21DEC2A8500317B9C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		945F20701DF6622600327D77 /* A.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = A.h; sourceTree = "<group>"; };
+		945F20711DF6622600327D77 /* A.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = A.m; sourceTree = "<group>"; };
+		945F20731DF6623F00327D77 /* B.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = B.h; sourceTree = "<group>"; };
+		945F20741DF6623F00327D77 /* B.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = B.m; sourceTree = "<group>"; };
+		94DF10E81DF7F195006011AC /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		94DF10E91DF7F195006011AC /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +123,12 @@
 				9404686C1DEC249800317B9C /* AppDelegate.m */,
 				9404686E1DEC249800317B9C /* ViewController.h */,
 				9404686F1DEC249800317B9C /* ViewController.m */,
+				945F20701DF6622600327D77 /* A.h */,
+				945F20711DF6622600327D77 /* A.m */,
+				945F20731DF6623F00327D77 /* B.h */,
+				945F20741DF6623F00327D77 /* B.m */,
+				94DF10E81DF7F195006011AC /* Person.h */,
+				94DF10E91DF7F195006011AC /* Person.m */,
 				940468711DEC249800317B9C /* Main.storyboard */,
 				940468741DEC249800317B9C /* Assets.xcassets */,
 				940468761DEC249800317B9C /* LaunchScreen.storyboard */,
@@ -291,6 +306,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				945F20751DF6623F00327D77 /* B.m in Sources */,
+				945F20721DF6622600327D77 /* A.m in Sources */,
+				94DF10EA1DF7F195006011AC /* Person.m in Sources */,
 				940468A01DEC265A00317B9C /* RYPageControl.m in Sources */,
 				940468701DEC249800317B9C /* ViewController.m in Sources */,
 				9404686D1DEC249800317B9C /* AppDelegate.m in Sources */,
@@ -528,6 +546,7 @@
 				940468941DEC249800317B9C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		940468951DEC249800317B9C /* Build configuration list for PBXNativeTarget "pageControlTests" */ = {
 			isa = XCConfigurationList;
@@ -536,6 +555,7 @@
 				940468971DEC249800317B9C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		940468981DEC249800317B9C /* Build configuration list for PBXNativeTarget "pageControlUITests" */ = {
 			isa = XCConfigurationList;
@@ -544,6 +564,7 @@
 				9404689A1DEC249800317B9C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

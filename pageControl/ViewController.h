@@ -7,9 +7,16 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <objc/runtime.h>
+#import <objc/message.h>
 
 @interface ViewController : UIViewController
 
+-(void)show:(NSString*)status;
+
+-(NSString *)getStr:(NSString *)str;
+
+-(void)show;
 
 @end
 
